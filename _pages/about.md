@@ -20,16 +20,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year undergraduate at **Peking University**, majoring in **Biological Sciences** with a focus on **Bioinformatics**, while also pursuing a double major in **Economics**.
-
+Hi! I'm Tianyi Wang! It's great to meet you! I currently a fourth undergraduate at **Peking University**, majoring in **Biological Sciences** with a focus on **Bioinformatics**, while also pursuing a double major in **Economics**. My current GPA is 3.80, calculated by Peking University official APP, WES transformed GPA will be attched later. 
 I am interested in using computational and quantitative approaches to understand complex biological systems. In particular, I hope to apply bioinformatics and computational biology methods to questions in genomics and cancer biology. My training across biology, bioinformatics, and economics has encouraged me to think about scientific questions from both mechanistic and systems-level perspectives.
 
 ## Research interests
 
-- Bioinformatics
-- Computational biology
-- Genomics
-- Cancer biology
+- Bioinformatics and computational biology
+- Single-cell and spatial omics
+- Genomics and multi-modal biological data analysis
+- Computational approaches to dissect single cell & spatial mechanisms of pan-cancer and metabolic diseases
+- AI for Science
+
 
 ## Current work
 
