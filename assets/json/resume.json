@@ -78,30 +78,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Student Union, School of Life Sciences, Peking University",
-      "location": "Beijing, China",
-      "position": "Head of External Relations",
-      "startDate": "2024-09-01",
-      "endDate": "2025-09-01",
-      "summary": "",
-      "highlights": [
-        "Led external partnerships and coordinated school-wide events including the Life Sciences New Year's Gala and Cultural Festival."
-      ]
-    },
-    {
-      "organization": "Peking University Bodybuilding Team",
-      "location": "Beijing, China",
-      "position": "Member",
-      "startDate": "2025-09-01",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Competed for Peking University at the 2026 Capital University Fitness and Bodybuilding Championships."
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "Peking University",
@@ -118,33 +94,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "National Scholarship for Undergraduate Students (top 4%)",
-      "date": "2024-01-01",
-      "awarder": "Ministry of Education, China",
-      "summary": ""
-    },
-    {
-      "title": "Peking University Third-Class Scholarship (top 10%)",
-      "date": "2025-01-01",
-      "awarder": "Peking University",
-      "summary": ""
-    },
-    {
-      "title": "Merit Student, Peking University (top 10%)",
-      "date": "2024-01-01",
-      "awarder": "Peking University",
-      "summary": ""
-    },
-    {
-      "title": "Outstanding Student Cadre, Peking University (top 3%)",
-      "date": "2025-01-01",
-      "awarder": "Peking University",
-      "summary": ""
-    }
-  ],
-  "certificates": [],
   "publications": [
     {
       "name": "Knowing When to Stop: Pertura for Graph-Enforced PI Gating in Perturb-seq Agents",
@@ -194,6 +143,32 @@
       "keywords": ["10x Chromium", "10x Xenium", "MERSCOPE", "Perturb-seq / CITE-seq"]
     }
   ],
+  "awards": [
+    {
+      "title": "National Scholarship for Undergraduate Students (top 4%)",
+      "date": "2024-01-01",
+      "awarder": "Ministry of Education, China",
+      "summary": ""
+    },
+    {
+      "title": "Peking University Third-Class Scholarship (top 10%)",
+      "date": "2025-01-01",
+      "awarder": "Peking University",
+      "summary": ""
+    },
+    {
+      "title": "Merit Student, Peking University (top 10%)",
+      "date": "2024-01-01",
+      "awarder": "Peking University",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Student Cadre, Peking University (top 3%)",
+      "date": "2025-01-01",
+      "awarder": "Peking University",
+      "summary": ""
+    }
+  ],
   "languages": [
     {
       "language": "Chinese",
@@ -204,41 +179,6 @@
       "language": "English",
       "fluency": "Professional working proficiency (TOEFL iBT 108)",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Research",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Single-cell & spatial omics",
-        "Computational biology",
-        "Genomics",
-        "Cancer & metabolic disease",
-        "AI for science"
-      ]
-    }
-  ],
-  "references": [],
-  "projects": [
-    {
-      "name": "Single-Cell Tumor Heterogeneity and Microenvironment Landscape of Hepatocellular Carcinoma",
-      "summary": "Course project. Led a three-person team reproducing and extending a published HCC heterogeneity study.",
-      "highlights": [
-        "Integrated 51 samples across three public scRNA-seq cohorts, recovering the reported metabolic, proliferative, and EMT malignant subtypes under independent quality control.",
-        "Ran trajectory and transcription-factor analyses to reconstruct subtype evolution, stratified patients by subtype composition, and annotated the T/NK, fibroblast, and endothelial compartments."
-      ],
-      "startDate": "2025-05-01",
-      "endDate": "2025-06-01"
-    },
-    {
-      "name": "Spatial Domain Analysis of Pulmonary Fibrosis with Graph Neural Networks",
-      "summary": "Course project.",
-      "highlights": [
-        "Built spatial graphs from 10x Xenium data and trained a GraphSAGE model to learn transcript-neighborhood embeddings; clustered the embeddings to recover spatial niches and validated them against cell-type composition."
-      ],
-      "startDate": "2025-04-01",
-      "endDate": "2025-06-01"
     }
   ]
 }
