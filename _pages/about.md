@@ -46,7 +46,7 @@ I use computational and quantitative approaches to understand complex biological
 
 - **Newman Lab, Stanford University** — developing and evaluating a de-novo analysis method for spatial transcriptomic data, including the metrics, benchmarking, and datasets used to validate it.
 - **Zemin Zhang Lab, Peking University** — cross-tissue single-cell and spatial atlases of MASH (sex/hormone effects across 21 tissues) and the hepatocellular carcinoma microenvironment (Xenium 5k spatial atlas).
-- **Pertura / PerturaBench** (independent) — an execution-grounded authority layer that gates every claim an LLM agent makes in Perturb-seq analysis on verified execution, scope, and dependencies.
+- **Pertura / PerturaBench** (independent, sole author, 2026) — built an execution-grounded authority layer that gates every claim an LLM agent makes in Perturb-seq analysis on verified execution, scope, and dependencies; presented at ICML GenBio (spotlight) and under review at AAAI 2027.
 
 See [publications](/publications/) for details.
 
