@@ -32,11 +32,12 @@ latest_posts:
 
 Hi! I'm Tianyi Wang, a fourth-year undergraduate at **Peking University**, majoring in **Biological Sciences** with a focus on **bioinformatics**, alongside a second major in **Economics** at the National School of Development. I am currently a visiting research student in the [Newman Lab](https://newmanlab.stanford.edu/) at **Stanford University**, and an undergraduate researcher in the [Zemin Zhang Lab](http://cancer-pku.cn/) at **Peking University**.
 
-I use computational and quantitative approaches to understand complex biological systems, working mostly in **single-cell and spatial omics**. My research spans **building spatial-transcriptomics methods and cross-tissue atlases of cancer and metabolic disease**, and designing **AI agents that keep scientific analysis correct and auditable**. My training across biology and bioinformatics pushes me to think about scientific questions from both mechanistic and systems-level perspectives.
+I use computational and quantitative approaches to understand complex biological systems, working mostly in **single-cell and spatial omics**. My research spans **building spatial-transcriptomics methods and cross-tissue atlases of cancer and metabolic disease**, and designing **AI agents that keep scientific analysis correct and auditable**. I'm especially drawn to **macrophages and innate immunity** — how myeloid cells shape health and disease progression across different tissues, sexes, and disease conditions. My training across biology and bioinformatics pushes me to think about scientific questions from both mechanistic and systems-level perspectives.
 
 ## Research interests
 
 - Single-cell and spatial omics
+- Macrophages and innate immunity across tissues, sexes, and disease conditions — from health to disease progression
 - Bioinformatics and computational biology
 - Genomics and multi-modal biological data analysis
 - Computational dissection of single-cell & spatial mechanisms in pan-cancer and metabolic disease
