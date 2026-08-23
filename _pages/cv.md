@@ -5,7 +5,7 @@ title: CV
 nav: true
 published: true
 nav_order: 5
-cv_pdf: # add a PDF filename in /assets/pdf/ (or an external link) to show a download button
+cv_pdf: Tianyi_Wang_CV.pdf # served from /assets/pdf/; shows a download button at the top of the CV page
 cv_format: jsonresume # options: rendercv, jsonresume
 description: Curriculum vitae of Tianyi Wang.
 toc:
