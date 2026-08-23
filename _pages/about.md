@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Beijing, China</p>
-    <p>wangtianyi2005 [at] stu.pku.edu.cn</p>
-    <p>twang05 [at] stanford.edu</p>
+    <p><a href="mailto:wangtianyi2005@stu.pku.edu.cn">wangtianyi2005@stu.pku.edu.cn</a></p>
+    <p><a href="mailto:twang05@stanford.edu">twang05@stanford.edu</a></p>
 
 selected_papers: true
 
