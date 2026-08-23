@@ -68,7 +68,7 @@
       "position": "Independent Research (Sole Author)",
       "location": "Beijing, China",
       "startDate": "2026-04-01",
-      "endDate": "",
+      "endDate": "2026-08-01",
       "summary": "An execution-grounded authority layer for LLM agents in Perturb-seq analysis.",
       "highlights": [
         "Gated every scientific claim on verified execution, analysis scope, and upstream dependencies rather than on the agent's own account of what it did.",
