@@ -4,7 +4,14 @@ title: about
 permalink: /
 subtitle: Undergraduate researcher in computational biology · Peking University
 
-profile: false
+profile:
+  align: right
+  image: prof_pic.png
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Beijing, China</p>
+    <p>wangtianyi2005 [at] stu.pku.edu.cn</p>
+    <p>twang05 [at] stanford.edu</p>
 
 selected_papers: true
 
