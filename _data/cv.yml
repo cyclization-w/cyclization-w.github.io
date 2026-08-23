@@ -1,189 +1,163 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Tianyi Wang
+  label: Undergraduate Researcher · Computational Biology
+  email: wangtianyi2005@stu.pku.edu.cn
+  phone: +86 155 0226 9006
+  url: https://cyclization-w.github.io
+  location: Beijing, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Fourth-year undergraduate at Peking University (B.S. Biological Sciences,
+    second major in Economics), working on single-cell and spatial omics,
+    computational biology, and AI agents for scientific analysis.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: cyclization-w
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Peking University
+        location: Beijing, China
+        url: https://www.pku.edu.cn/
+        area: Biological Sciences (Bioinformatics focus); Second Major in Economics, National School of Development (NSD)
+        studyType: B.S.
+        start_date: 2023-09
+        end_date: 2027-07
+        score: "GPA 3.8/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "TOEFL iBT: 108/120 (R 29, L 28, S 25, W 26)"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Newman Lab, Stanford University
+        position: "Visiting Research Student (Advisor: Aaron M. Newman)"
+        location: Stanford, CA
+        start_date: 2026-06
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Contributed to the development and evaluation of a de-novo analysis method for spatial transcriptomic data.
+          - "Designed metrics and an evaluation pipeline for fair comparison of model performance: ability to recover biology in spatial data, plus scalability analysis of runtime, memory, and scaling."
+          - Benchmarked against a baseline and 3 other published methods across 3 scenarios spanning large-scale data and self-designed synthetic data.
+          - Selected and curated the datasets used to demonstrate the method's biological interpretation and cross-model validation.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Zemin Zhang Lab, Peking University
+        position: "Undergraduate Researcher (Advisors: Zemin Zhang, Dongfang Wang)"
+        location: Beijing, China
+        start_date: 2025-07
+        end_date: present
+        summary: Cross-tissue single-cell and spatial transcriptomics of cancer and metabolic disease.
         highlights:
-          - Description 1.
-          - Description 2.
+          - "<strong>Cross-Tissue Single-Cell and Spatial Analysis of Sex and Hormone Effects in MASH (12/2025 – Present):</strong> integrated and annotated ~2.5M single cells across 21 tissues in a 2×2×2 design crossing MASH, sex, and hormone status, building a cross-tissue reference toward a 5M single-cell mouse atlas; resolved myeloid, B cell, and neutrophil populations to subtype level; designed a unified compositional and pseudobulk differential-expression framework applied across all 21 tissues; led the spatial analysis across 65 Xenium sections and 8 tissues."
+          - "<strong>Xenium 5k Spatial Atlas of the Hepatocellular Carcinoma Microenvironment (07/2025 – 11/2025):</strong> constructed a spatial atlas of 650,931 cells across 57 Xenium sections from an HCC cohort on combination targeted–immunotherapy; annotated 20 cell types from a ResolVI model; performed compositional and cell-abundance analysis within anatomical regions; correlated cell-type fractions and spatial patterns with clinical outcomes via Cox regression to identify candidate biomarkers."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Pertura / PerturaBench
+        position: Independent Research (Sole Author)
+        location: Beijing, China
+        start_date: 2026-04
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Built an execution-grounded authority layer for LLM agents in Perturb-seq analysis, gating every scientific claim on verified execution, analysis scope, and upstream dependencies rather than on the agent's own account of what it did.
+          - "Designed PerturaBench: 20 dependency-aware tasks over three Perturb-seq datasets and a donor-aware supplement, scoring 120 turns across three agent conditions and two prespecified repeats."
+          - Prespecified the primary analysis and froze evaluators and thresholds before unblinding; reported clustered bootstrap confidence intervals and a sensitivity cohort, including the contrast that did not reproduce.
+          - Reached 83.3% primary scientific fidelity vs. 44.4% and 38.9% for baselines, and 82.5% claim-authority success with no loss of informativeness.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Knowing When to Stop: Pertura for Graph-Enforced PI Gating in Perturb-seq Agents"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Tianyi Wang
+        publisher: ICML 2026 Workshop on Generative and Agentic AI for Biology (GenBio), Seoul, Korea
+        releaseDate: 2026
+        summary: "Spotlight. Peer-reviewed workshop paper."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Knowing When to Claim: Pertura for Execution-Grounded Claim Promotion in Perturb-seq Agents"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Tianyi Wang
+        publisher: Submitted to AAAI 2027
+        releaseDate: 2026
+        summary: Under review.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Macrophage Panx1 Restrains Aspartate-Associated Thermogenic Remodeling of White Adipose Tissue in Obesity
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Qianhui Xu
+          - Qixiang Gui
+          - Tianyi Wang
+          - Xu Zhao
+          - Jin Wang
+          - Jianghui Ying
+          - Hao Hu
+          - Xinyi Tang
+          - Rui Lin
+          - Xiaoyu Yu
+          - Xiaohui Zhou
+        releaseDate: 2026
+        summary: Manuscript under review.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Single-Cell Tumor Heterogeneity and Microenvironment Landscape of Hepatocellular Carcinoma
+        start_date: 2025-05
+        end_date: 2025-06
+        summary: Course project.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Led a three-person team reproducing and extending a published HCC heterogeneity study; integrated 51 samples across three public scRNA-seq cohorts, recovering the reported metabolic, proliferative, and EMT malignant subtypes under independent quality control.
+          - Ran trajectory and transcription-factor analyses to reconstruct subtype evolution, stratified patients by subtype composition, and annotated the T/NK, fibroblast, and endothelial compartments.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Spatial Domain Analysis of Pulmonary Fibrosis with Graph Neural Networks
+        start_date: 2025-04
+        end_date: 2025-06
+        summary: Course project.
+        highlights:
+          - Built spatial graphs from 10x Xenium data and trained a GraphSAGE model to learn transcript-neighborhood embeddings; clustered the embeddings to recover spatial niches and validated them against cell-type composition.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Awards:
+      - title: National Scholarship for Undergraduate Students (top 4%)
+        date: 2024
+        awarder: Ministry of Education, China
+
+      - title: Peking University Third-Class Scholarship (top 10%)
+        date: 2025
+        awarder: Peking University
+
+      - title: Merit Student, Peking University (top 10%)
+        date: 2024
+        awarder: Peking University
+
+      - title: Outstanding Student Cadre, Peking University (top 3%)
+        date: 2025
+        awarder: Peking University
+
+    Skills:
+      - name: Languages
+        keywords: "Python, R, Linux, Bash"
+      - name: Single-cell & Spatial
+        keywords: "Scanpy, squidpy, AnnData, scvi-tools, cNMF, Seurat, edgeR"
+      - name: ML & Infrastructure
+        keywords: "PyTorch, PyTorch Geometric, scikit-learn, SLURM on HPC, Git"
+      - name: Platforms
+        keywords: "10x Chromium, 10x Xenium, MERSCOPE, Perturb-seq / CITE-seq"
+
+    Leadership & Service:
+      - company: Student Union, School of Life Sciences, Peking University
+        position: Head of External Relations
+        location: Beijing, China
+        start_date: 2024-09
+        end_date: 2025-09
+        highlights:
+          - Led external partnerships and coordinated school-wide events including the Life Sciences New Year's Gala and Cultural Festival.
+
+      - company: Peking University Bodybuilding Team
+        position: Member
+        location: Beijing, China
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Competed for Peking University at the 2026 Capital University Fitness and Bodybuilding Championships.
+
+    Languages:
+      - name: Chinese
+        summary: Native speaker
+      - name: English
+        summary: "Professional working proficiency (TOEFL iBT 108)"
+
+    Interests:
+      - name: Research
+        keywords: "Single-cell & spatial omics, computational biology, genomics, cancer & metabolic disease, AI for science"

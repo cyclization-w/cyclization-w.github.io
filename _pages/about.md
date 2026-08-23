@@ -2,15 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Third-year undergraduate at Peking University
+subtitle: Undergraduate researcher in computational biology · Peking University
 
 profile: false
 
-selected_papers: false
+selected_papers: true
+
+news: true
+
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -20,31 +23,32 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Tianyi Wang! It's great to meet you! I currently a fourth undergraduate at **Peking University**, majoring in **Biological Sciences** with a focus on **Bioinformatics**, while also pursuing a double major in **Economics**. My current GPA is 3.80, calculated by Peking University official APP, WES transformed GPA will be attched later. 
-I am interested in using computational and quantitative approaches to understand complex biological systems. In particular, I hope to apply bioinformatics and computational biology methods to questions in genomics and cancer biology. My training across biology, bioinformatics, and economics has encouraged me to think about scientific questions from both mechanistic and systems-level perspectives.
+Hi! I'm Tianyi Wang, a fourth-year undergraduate at **Peking University**, majoring in **Biological Sciences** with a focus on **bioinformatics**, alongside a second major in **Economics** at the National School of Development. I am currently a visiting research student in the [Newman Lab](https://newmanlab.stanford.edu/) at **Stanford University**.
+
+I use computational and quantitative approaches to understand complex biological systems, working mostly in **single-cell and spatial omics**. My research spans building spatial-transcriptomics methods and cross-tissue atlases of cancer and metabolic disease, and designing **AI agents that keep scientific analysis correct and auditable**. My training across biology, bioinformatics, and economics pushes me to think about scientific questions from both mechanistic and systems-level perspectives.
 
 ## Research interests
 
-- Bioinformatics and computational biology
 - Single-cell and spatial omics
+- Bioinformatics and computational biology
 - Genomics and multi-modal biological data analysis
-- Computational approaches to dissect single cell & spatial mechanisms of pan-cancer and metabolic diseases
-- AI for Science
-
+- Computational dissection of single-cell & spatial mechanisms in pan-cancer and metabolic disease
+- AI for science — agentic systems for scientific analysis
 
 ## Current work
 
-I am currently developing several research projects. Because the work is still in progress, project details, figures, and manuscripts will be added when they become publicly available.
+- **Newman Lab, Stanford University** — developing and evaluating a de-novo analysis method for spatial transcriptomic data, including the metrics, benchmarking, and datasets used to validate it.
+- **Zemin Zhang Lab, Peking University** — cross-tissue single-cell and spatial atlases of MASH (sex/hormone effects across 21 tissues) and the hepatocellular carcinoma microenvironment (Xenium 5k spatial atlas).
+- **Pertura / PerturaBench** (independent) — an execution-grounded authority layer that gates every claim an LLM agent makes in Perturb-seq analysis on verified execution, scope, and dependencies.
+
+See [publications](/publications/) for details.
 
 ## Education
 
-**Peking University**<br>
-Biological Sciences · Bioinformatics focus<br>
-Economics double major
+**Peking University** — B.S. in Biological Sciences (bioinformatics focus), 2023–2027<br>
+Second major in Economics, National School of Development · GPA 3.8/4.0
 
 ## Contact
 
 - Peking University: [wangtianyi2005@stu.pku.edu.cn](mailto:wangtianyi2005@stu.pku.edu.cn)
-- Stanford email: [twang05@stanford.edu](mailto:twang05@stanford.edu)
-
-<!-- TODO: Add a public CV when ready. -->
+- Stanford: [twang05@stanford.edu](mailto:twang05@stanford.edu)

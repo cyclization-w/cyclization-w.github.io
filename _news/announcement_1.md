@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-06-15 09:00:00-0700
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Joined the [Newman Lab](https://newmanlab.stanford.edu/) at **Stanford University** as a visiting research student, working on de-novo methods for spatial transcriptomics. :rocket:

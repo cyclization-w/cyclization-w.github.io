@@ -2,7 +2,9 @@
 layout: page
 title: news
 permalink: /news/
-published: false
+nav: true
+nav_order: 3
+published: true
 ---
 
 {% include news.liquid %}
