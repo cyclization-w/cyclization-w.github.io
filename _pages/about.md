@@ -12,6 +12,7 @@ profile:
     <p>Beijing, China</p>
     <p><a href="mailto:wangtianyi2005@stu.pku.edu.cn">wangtianyi2005@stu.pku.edu.cn</a></p>
     <p><a href="mailto:twang05@stanford.edu">twang05@stanford.edu</a></p>
+    <p><a href="https://openreview.net/profile?id=~Tianyi_Wang29" target="_blank" rel="noopener">OpenReview profile</a></p>
 
 selected_papers: true
 
